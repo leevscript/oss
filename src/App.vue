@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <my-menu></my-menu>
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 

@@ -9,7 +9,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: { name: 'UploadFile' }
+      redirect: { name: 'DownloadFile' }
     },
     {
       path: '/download',
